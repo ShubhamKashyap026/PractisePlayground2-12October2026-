@@ -119,3 +119,39 @@ secondWay.insert(5)
 secondWay.insert(6)
 secondWay.insert(10)
 secondWay.insert(15)
+
+
+// Enums // Very Important // Enumerations
+var selectedWeekDay = "Monday" // Weekday
+selectedWeekDay = "Tuesday"
+selectedWeekDay = "January" // Wrong // Month in Weekday
+selectedWeekDay = "Friday " // Wrong // Extra Space
+
+// To Solve this problem // Let Define a Named Type using Enumertions // Enums // Highly Efficient
+enum Weekday {
+case monday
+case tuesday
+case wednesday
+case friday
+case saturday
+case sunday
+}
+
+//enum Weekday {
+//    case monday, tuesday, wednesday, thursday, friday, saturday, sunday // Another Way of Define this Named Type // Enums
+//}
+
+
+var days = Weekday.monday
+days = .monday // Short Form // Using the power of enums // named value types
+// days = .january // Not Possible
+
+
+// Enums - set of named values we can create and use in our code
+
+// Type Inference
+// Swift Compiler automatically find the type of data
+
+// Type Annotations
+// Manually defining the type of data
+
