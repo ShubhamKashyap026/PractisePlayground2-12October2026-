@@ -155,3 +155,64 @@ days = .monday // Short Form // Using the power of enums // named value types
 // Type Annotations
 // Manually defining the type of data
 
+let surname: String = "Lasso"
+var score: Int  = 0
+
+var newScore: Double = 14
+print(type(of: newScore))
+
+let pi: Double = 3.141
+var isAuthenticated: Bool = false
+
+var newAlbums: [String] = ["Red", "Fearless"]
+var use: [String: String] = ["id" : "@twostraws}"]
+
+var books: Set<String> = Set([
+    "The Bluest Eye",
+    "Foundation",
+    "Girl, Woman, Other"
+]) // Defining a set of String
+
+var soda: [String] = [
+    "Coca",
+    "Pepsi",
+    "Dew"
+]
+
+var teams: [String] = [String]()
+
+var emptySet: Set<String> = Set([])
+
+let newSet = Set(["String"])
+
+var towns: [String] = []
+var clues = [String]()
+var evidence: [String] = []
+
+enum UIStyle {
+    case light, dark, system
+}
+
+var style = UIStyle.light // Defined Type
+style = .dark // Can do this then
+style = .system
+
+let username: String
+// lots of code
+username = "@shubhamkashyap"
+// lots of code
+
+print(username) // Initial the value first
+
+//let score: Int = "Zero"
+
+let names = ["Eleanor", "Chidi", "Tahani", "Jianyu", "Michael", "Janet"]
+var jNames : [String] = []
+
+for i in names {
+    if i.hasPrefix("J") {
+        jNames.append(i)
+    }
+}
+
+print(jNames)
